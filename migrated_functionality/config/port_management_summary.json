@@ -1,0 +1,22 @@
+{
+  "setup_status": "complete",
+  "files_created": [
+    "iza_os_port_allocations.json",
+    "manage_ports.sh",
+    "docker-compose.override.yml",
+    "IZA_OS_PORT_MANAGEMENT_GUIDE.md"
+  ],
+  "port_ranges": {
+    "core_services": "3000-3099",
+    "ai_services": "8000-8099",
+    "database_services": "5000-5099",
+    "dev_tools": "9000-9099",
+    "web_services": "4000-4099",
+    "integration_services": "8100-8199",
+    "monitoring_services": "9100-9199",
+    "specialized_services": "8200-8299"
+  },
+  "conflicts_resolved": 8,
+  "total_ports_managed": 50,
+  "timestamp": "2025-09-25T09:52:41.579839"
+}
